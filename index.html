@@ -17,10 +17,13 @@
       <div id="app">
 
             <div class="container">
+                  <button @click="getRandomEmails()">Nuove email</button>
                   <ul class="emails-list">
                         <li class="emails-item" v-for="email in emailsList" v-if="emailsList.length === emailsQty">{{email}} </li>
 
                   </ul>
+
+                  
 
 
             </div>

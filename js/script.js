@@ -40,7 +40,11 @@ Vue.config.devtools = true;
                   .then((response) => {  
                       this.emailsList.push(response.data.response);
                   });
-              }
+              
+                  //con questa svuota l array button e ricarica ad ogni click
+                    this.emailsList= []    
+                  }
+
 
 
 
