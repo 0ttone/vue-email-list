@@ -25,7 +25,7 @@ Vue.config.devtools = true;
 
           },
 
-          create: {
+          created () {
 
                   this.getRandomEmails()
 
